@@ -1,0 +1,20 @@
+#pragma once
+#include "../windissect_forwards.h"
+
+// Reconstructed from InputHost.dll by Windissect. 9 member(s).
+class BamoMPCConstantManagerClientCallbacksStub {
+public:
+    // Category: Refcount | Source: PDB Internal
+    // Symbol: ?AddRef@BamoMPCConstantManagerClientCallbacksStub@@UEAAKXZ
+    virtual unsigned long AddRef();
+    // Category: Refcount | Source: PDB Internal
+    // Symbol: ?QueryInterface@BamoMPCConstantManagerClientCallbacksStub@@UEAAJAEBU_GUID@@PEAPEAX@Z
+    virtual long QueryInterface(_GUID const &, void * *);
+    // Category: Refcount | Source: PDB Internal
+    // Symbol: ?Release@BamoMPCConstantManagerClientCallbacksStub@@UEAAKXZ
+    virtual unsigned long Release();
+private:
+    // Category: Accessor | Source: PDB Internal
+    // Symbol: ?GetImpl@BamoMPCConstantManagerClientCallbacksStub@@EEBAPEAVBamoStubImpl@BamoImpl@Microsoft@@XZ
+    virtual ::Microsoft::BamoImpl::BamoStubImpl * GetImpl() const;
+};

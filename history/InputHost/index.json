@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "target": "InputHost.dll",
+  "latest": "41609020-ABCDD08862C83DBF2EE2F171207BBB2F-1",
+  "builds": [
+    {
+      "key": "41609020-ABCDD08862C83DBF2EE2F171207BBB2F-1",
+      "timestamp": "41609020",
+      "pdb_guid": "ABCDD08862C83DBF2EE2F171207BBB2F",
+      "pdb_age": 1,
+      "machine": "0x8664",
+      "ir": "builds/41609020-ABCDD08862C83DBF2EE2F171207BBB2F-1/ir.json.gz",
+      "previous": null,
+      "diff_json": null,
+      "diff_markdown": null,
+      "summary": null
+    }
+  ],
+  "compression": "gzip"
+}
